@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Simple Bootstrap Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fw-bold">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="bi bi-globe-americas"></i>BonZai Thailand</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <button class="btn btn-warning"><i class='font-size:35px'></i>หน้าแรก</button>
+                    <button class="btn btn-warning"><i class='font-size:35px'></i>บอนไซนอก</button>
+                    <button class="btn btn-warning"><i class='font-size:35px'></i>บอนไซไทย</button>
+                    <button class="btn btn-warning"><i class='font-size:35px'></i>ความช่วยเหลือ</button>
+   </div>
+ </nav>
+
+ <div class="container mt-4">
+    <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4">
+     <div class="col">
+        <div class="card border-warning border border-5 rounded-3">
+            <img src="p1.jpg" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <h5 class="card-title btn btn-warning"><i class="bi bi-1-square-fill"></i> </i>สนไหนไม่รู้แต่อันนี้ต้นสนนะ</h5>
+                    <p class="card-text text-start">Age :  11 years</p>
+                    <p class="card-text text-start">Price : 11,400฿ </p>
+                    <p class="card-text text-start">Delivery : Free กทม.จัดส่งไลน์แมนได้ครับ</p>
+                </div>
+            </div>
+        </div>
+        <div class="card border-warning border border-5 rounded-3">
+            <div class="card">
+                <img src="p4.png" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                    <h5 class="card-title btn btn-warning"><i class="bi bi-2-square-fill"></i> </i>ชวนชมชวนใจ</h5>
+                    <p class="card-text text-start">Age :  4 years</p>
+                    <p class="card-text text-start">Price : 4,200฿ </p>
+                    <p class="card-text text-start">Delivery : Free กทม.จัดส่งไลน์แมนได้ครับ</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-warning border border-5 rounded-3">
+                <img src="p5.png" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <h5 class="card-title btn btn-warning"><i class="bi bi-3-square-fill"></i> </i>หมากเล็กหมากน้อยหรือ มั่งคั่ง+กระถางจีน</h5>
+                    <p class="card-text text-start">Age :  6 years</p>
+                    <p class="card-text text-start">Price : 7,500฿ </p>
+                    <p class="card-text text-start">Delivery : Free กทม.จัดส่งไลน์แมนได้ครับ</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-warning border border-5 rounded-4">
+                <img src="p10.png" class="card-img-top" alt="Image 4">
+                <div class="card-body">
+                    <h5 class="card-title btn btn-warning"><i class="bi bi-4-square-fill"></i> </i>ตะโกใบทับทิม</h5>
+                    <p class="card-text text-start">Age :  8 years</p>
+                    <p class="card-text text-start">Price : 12,500฿ </p>
+                    <p class="card-text text-start">Delivery : Free กทม.จัดส่งไลน์แมนได้ครับ</p>
+                </div>
+            </div>
+        </div>
+ </div>
+ <div class="mt-4">
+    <h3><i class="bi bi-highlighter fw-bold"></></i>ทำการสั่งซื้อ</h3>
+    <form action="">
+        <div class="mb-3">
+        <label for="" class"form-label">ชื่อ-นามสกุล</label>
+        <input type="email" class="form-control" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="" class"form-label">ที่อยู่จัดส่ง</label>
+        <textarea class="form-control" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="" class"form-label">หมาเลขโทรศัพท์</label>
+        <input type="email" class="form-control" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="" class"form-label">วิธีการชำระเงิน</label>
+        <select name="occupation" class="form-select">
+            <option >--ตัวเลือก--</option>
+            <option >เก็บเงินปลายทาง</option>
+            <option >Mobile Banking</option>
+        </select>
+    </div>
+    <button class="btn btn-warning fw-bold">เกี่ยวกับเรา</button>
+    <button class="btn btn-warning fw-bold"type="save">บันทึก</button>
+    <button class="btn btn-warning fw-bold"type="reset">ยกเลิก</button>
+    
+    <i class='bi bi-line' style='font-size:30px'></i>
+    <i class='bi bi-facebook' style='font-size:30px'></i>
+    <i class='bi bi-messenger' style='font-size:30px'></i>
+    <i class='bi bi-whatsapp' style='font-size:30px'></i>
+    <div class="spinner-grow" role="">
+        <span class=" <i class='bi bi-whatsapp' style='font-size:30px'></i>"> <i class='bi bi-whatsapp' style='font-size:100px'></i></span>
+      </div>
+      
+          </d
